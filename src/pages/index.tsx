@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button, Padding, Box, Title, Text, Divider } from '@/ui';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
-import { StyledIndex } from './styledIndex';
+import StyledIndex from './styledIndex';
 import response from './apiresponse';
 import FormItems from './formItems';
 import { phoneRegex } from '../utils/constants';

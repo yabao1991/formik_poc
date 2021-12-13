@@ -75,7 +75,7 @@ interface IconProps {
 }
 
 export function Checkbox(props: Props): JSX.Element {
-  const { isActive, onClick, disabled, testId, name } = props;
+  const { isActive, onClick, disabled, testId } = props;
 
   return (
     <StyledContainer

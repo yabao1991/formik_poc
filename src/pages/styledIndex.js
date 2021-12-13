@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledIndex = styled('div')`
+const StyledIndex = styled('div')`
   position: absolute;
   top: 80px;
   max-width: 640px;
@@ -21,3 +21,5 @@ export const StyledIndex = styled('div')`
     overflow: scroll;
   }
 `;
+
+export default StyledIndex;
