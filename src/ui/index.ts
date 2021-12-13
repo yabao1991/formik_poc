@@ -1,4 +1,5 @@
 export { Alert } from './components/alert';
+export { FormItems } from './components/formItems';
 export { Padding } from './components/padding';
 export { Attachment } from './components/attachment';
 export { AttachmentPill, PillList } from './components/attachment-pill';
