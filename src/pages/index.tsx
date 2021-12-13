@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Padding, Box, Title, Text, Divider } from '@/ui';
-import { Formik, Form, useFormik, Field } from 'formik';
+import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import { StyledIndex } from './styledIndex';
 import response from './apiresponse';
