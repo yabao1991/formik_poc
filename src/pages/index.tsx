@@ -121,7 +121,7 @@ export default function IndexPage(): JSX.Element {
         <pre>{JSON.stringify(formik.errors, null, 2)}</pre>
       </div>
       <form onSubmit={formik.handleSubmit}>
-        <Padding top={40} left={50} right={50} bottom={30}>
+        <Padding top={40} left={48} right={48} bottom={40}>
           <Box
             style={{
               padding: '0 0 40px 0',

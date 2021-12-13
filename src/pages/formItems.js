@@ -61,7 +61,7 @@ const FormItems = ({ config, formik, stepNum }) => {
             case 'radioGroup':
                 return (
                     <>
-                        <Padding key={individualConfig.fieldId} bottom={10}>
+                        <Padding key={individualConfig.fieldId} bottom={8}>
 
                             {individualConfig.subFields.map((item, index) => {
                                 return (
