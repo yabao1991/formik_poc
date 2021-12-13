@@ -144,10 +144,10 @@ export default function IndexPage(): JSX.Element {
               size="secondary"
               onClick={handleBack}
               disabled={steps[0].key === activeStep.key}
-              style={{
-                width: '90px',
-                hieght: '40px',
-              }}
+              // style={{
+              //   width: '90px',
+              //   hieght: '40px',
+              // }}
             >
               Back
             </Button>
@@ -155,10 +155,10 @@ export default function IndexPage(): JSX.Element {
               size="primary"
               type={steps[steps.length - 1].key !== activeStep.key ? 'button' : 'submit'}
               onClick={() => (steps[steps.length - 1].key !== activeStep.key ? handleNext() : formik.submitForm())}
-              style={{
-                width: '90px',
-                hieght: '40px',
-              }}
+              // style={{
+              //   width: '90px',
+              //   hieght: '40px',
+              // }}
             >
               {steps[steps.length - 1].key !== activeStep.key ? 'Next' : 'Finish'}
             </Button>
